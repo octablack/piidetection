@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PII Protection | An AI-Driven Secure Ecosystem</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at 50% 0%, rgba(19,78,74,0.3), rgba(10,10,10,0) 40%), #0a0a0a;
+        }
+        .feature-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <!-- Header -->
+    <header class="bg-gray-900/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-700">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-teal-400">PII Secure</h1>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="hover:text-teal-400 transition-colors">Home</a>
+                <a href="#features" class="hover:text-teal-400 transition-colors">Features</a>
+                <a href="#tech" class="hover:text-teal-400 transition-colors">Technology</a>
+                <a href="#scope" class="hover:text-teal-400 transition-colors">Scope</a>
+                <a href="#team" class="hover:text-teal-400 transition-colors">Team</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-gray-300">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#home" class="block py-2 px-6 text-sm hover:bg-gray-800">Home</a>
+            <a href="#features" class="block py-2 px-6 text-sm hover:bg-gray-800">Features</a>
+            <a href="#tech" class="block py-2 px-6 text-sm hover:bg-gray-800">Technology</a>
+            <a href="#scope" class="block py-2 px-6 text-sm hover:bg-gray-800">Scope</a>
+            <a href="#team" class="block py-2 px-6 text-sm hover:bg-gray-800">Team</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-gradient pt-24 pb-32">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4">An AI-Driven Secure Ecosystem for PII Protection</h2>
+                <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8">Proactively safeguarding your digital privacy with an intelligent, AI-powered engine that detects and redacts sensitive information before it's exposed.</p>
+                <a href="#features" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-full transition-transform transform hover:scale-105">Explore Features</a>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section id="intro" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto text-center">
+                     <h3 class="text-3xl font-bold text-white mb-6">The Pressing Need for Proactive Privacy</h3>
+                     <p class="text-gray-400 leading-relaxed">
+                        In today's digital landscape, the seamless exchange of information carries the significant risk of exposing Personally Identifiable Information (PII). Everyday actions, from submitting a job application to uploading documents, can inadvertently leak sensitive data. Our platform moves beyond basic security by employing a sophisticated core built on Natural Language Processing (NLP) and Optical Character Recognition (OCR) to accurately detect and redact PII from a wide array of file types, ensuring your privacy without disrupting your digital workflow.
+                     </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Project Objectives -->
+        <section id="objectives" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <h3 class="text-3xl font-bold text-white text-center mb-12">Project Objectives</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Objective Card 1 -->
+                    <div class="text-center p-6 bg-gray-800 rounded-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mx-auto mb-4 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M12 6V4m0 16v-2M8 8l1.414-1.414M14.586 14.586L16 16m-1.414-8.014L16 8m-8.014 6.586L8 16"/></svg>
+                        <h4 class="font-semibold text-lg mb-2">Develop Core AI Engine</h4>
+                        <p class="text-gray-400 text-sm">Build a robust AI model using NLP and OCR to accurately detect and remove PII from documents and images.</p>
+                    </div>
+                    <!-- Objective Card 2 -->
+                    <div class="text-center p-6 bg-gray-800 rounded-lg">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mx-auto mb-4 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                        <h4 class="font-semibold text-lg mb-2">Create User-Facing Tools</h4>
+                        <p class="text-gray-400 text-sm">Launch a user-friendly web platform and a smart browser extension for real-time, automated protection.</p>
+                    </div>
+                    <!-- Objective Card 3 -->
+                    <div class="text-center p-6 bg-gray-800 rounded-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mx-auto mb-4 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+                        <h4 class="font-semibold text-lg mb-2">Implement Smart Data Minimization</h4>
+                        <p class="text-gray-400 text-sm">Enable the system to share only necessary PII required for a specific task, masking all other information.</p>
+                    </div>
+                    <!-- Objective Card 4 -->
+                    <div class="text-center p-6 bg-gray-800 rounded-lg">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mx-auto mb-4 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+                        <h4 class="font-semibold text-lg mb-2">Ensure Cross-Platform Availability</h4>
+                        <p class="text-gray-400 text-sm">Expand the ecosystem by developing a mobile application for seamless PII protection across all devices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-20">
+            <div class="container mx-auto px-6">
+                <h3 class="text-3xl font-bold text-white text-center mb-12">Key Features</h3>
+                
+                <!-- Core Features -->
+                <h4 class="text-2xl font-semibold text-teal-400 text-center mb-8">Core Functionalities</h4>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                    <div class="feature-card p-6 rounded-lg">
+                        <h5 class="font-bold text-lg mb-2">AI-based PII Detection</h5>
+                        <p class="text-gray-400">Uses AI to automatically find sensitive data like names, emails, and ID numbers.</p>
+                    </div>
+                    <div class="feature-card p-6 rounded-lg">
+                        <h5 class="font-bold text-lg mb-2">OCR Support</h5>
+                        <p class="text-gray-400">Reads text from scanned documents and images, ensuring no PII is missed.</p>
+                    </div>
+                    <div class="feature-card p-6 rounded-lg">
+                        <h5 class="font-bold text-lg mb-2">Multi-format Support</h5>
+                        <p class="text-gray-400">Processes various file types including PDF, DOCX, TXT, PNG, and JPG.</p>
+                    </div>
+                    <div class="feature-card p-6 rounded-lg">
+                        <h5 class="font-bold text-lg mb-2">Smart Redaction</h5>
+                        <p class="text-gray-400">Securely removes PII while preserving the original document's layout.</p>
+                    </div>
+                     <div class="feature-card p-6 rounded-lg col-span-1 md:col-span-2 lg:col-span-1">
+                        <h5 class="font-bold text-lg mb-2">Local Processing</h5>
+                        <p class="text-gray-400">All processing is done locally, ensuring no data leaves your system for maximum privacy.</p>
+                    </div>
+                </div>
+
+                <!-- Advanced Features -->
+                <h4 class="text-2xl font-semibold text-teal-400 text-center mb-8">Advanced Capabilities</h4>
+                <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <div class="feature-card p-6 rounded-lg">
+                        <h5 class="font-bold text-lg mb-2">Real-time Browser Monitoring</h5>
+                        <p class="text-gray-400">Actively scans files and forms during upload to prevent accidental data leaks across the web.</p>
+                    </div>
+                    <div class="feature-card p-6 rounded-lg">
+                        <h5 class="font-bold text-lg mb-2">Untrusted Site Alerts</h5>
+                        <p class="text-gray-400">Automatically blocks or warns when sharing sensitive info with potentially unsafe websites.</p>
+                    </div>
+                    <div class="feature-card p-6 rounded-lg">
+                        <h5 class="font-bold text-lg mb-2">Selective PII Exposure</h5>
+                        <p class="text-gray-400">Intelligently shares only the minimum required data for a transaction (e.g., just your age).</p>
+                    </div>
+                    <div class="feature-card p-6 rounded-lg">
+                        <h5 class="font-bold text-lg mb-2">OTP & Sensitive Field Protection</h5>
+                        <p class="text-gray-400">Prevents accidental sharing or theft of highly sensitive data like one-time passwords.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology Stack -->
+        <section id="tech" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <h3 class="text-3xl font-bold text-white text-center mb-12">Tools & Technologies</h3>
+                <div class="max-w-4xl mx-auto flex flex-wrap justify-center items-center gap-6 md:gap-10">
+                    <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-full">Python 3</span>
+                    <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-full">Flask</span>
+                    <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-full">Tesseract OCR</span>
+                    <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-full">spaCy/Transformers</span>
+                    <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-full">HTML & CSS</span>
+                    <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-full">PyMuPDF</span>
+                    <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-full">Docker</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Scope -->
+        <section id="scope" class="py-20">
+            <div class="container mx-auto px-6">
+                <h3 class="text-3xl font-bold text-white text-center mb-12">Project Scope</h3>
+                <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-16">
+                    <div>
+                        <h4 class="text-xl font-semibold text-teal-400 mb-4">In Scope</h4>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span><span>Develop the Core Redaction Platform via a web application.</span></li>
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span><span>Create a Proactive Browser Extension for real-time interception.</span></li>
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span><span>Implement intelligent features like risk assessment and selective exposure.</span></li>
+                             <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span><span>Focus on the desktop and web environment for the initial project.</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-semibold text-red-400 mb-4">Future Scope & Limitations</h4>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start"><span class="text-red-400 mr-2 mt-1">&#10007;</span><span>Native mobile application development is reserved for a future phase.</span></li>
+                            <li class="flex items-start"><span class="text-red-400 mr-2 mt-1">&#10007;</span><span>Initial model has limited support for non-English languages and regional PII.</span></li>
+                            <li class="flex items-start"><span class="text-red-400 mr-2 mt-1">&#10007;</span><span>Does not process PII within unstructured audio/video files.</span></li>
+                            <li class="flex items-start"><span class="text-red-400 mr-2 mt-1">&#10007;</span><span>Browser extension's real-time features depend on internet connectivity.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <h3 class="text-3xl font-bold text-white text-center mb-12">Our Team</h3>
+                <div class="flex flex-col md:flex-row justify-center items-center gap-12">
+                    <div class="text-center">
+                        <div class="w-32 h-32 rounded-full bg-teal-500/20 mx-auto mb-4 flex items-center justify-center">
+                            <span class="text-5xl font-bold text-teal-300">LG</span>
+                        </div>
+                        <h4 class="text-xl font-semibold">Lakshay</h4>
+                        <p class="text-gray-400">(2022031522)</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-32 h-32 rounded-full bg-teal-500/20 mx-auto mb-4 flex items-center justify-center">
+                            <span class="text-5xl font-bold text-teal-300">AG</span>
+                        </div>
+                        <h4 class="text-xl font-semibold">Aayush Garg</h4>
+                        <p class="text-gray-400">(2022031501)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-700">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-500">
+            <p>&copy; 2025 PII Secure Project. All rights reserved.</p>
+            <p class="text-sm mt-2">A project addressing the critical challenge of unintentional data exposure in the digital age.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
+        for (let link of mobileMenuLinks) {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        }
+    </script>
+
+</body>
+</html>
